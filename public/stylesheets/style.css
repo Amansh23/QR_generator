@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.bgclass{
+  background: rgb(34,193,195);
+  background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.qrdiv{
+  width: 350px;
+  height: 350px;
+ 
+}
+
+.qrdiv>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
